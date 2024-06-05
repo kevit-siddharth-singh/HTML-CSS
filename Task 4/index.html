@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Task 4 Form</h1>
+    <div class="form">
+        <br>
+      <form action="nextpage.html" method="get">
+        <!-- Name Input -->
+        <label for="name-input">Name:</label>
+        <input type="text" id="name-input" name="text-input" /><br /><br />
+
+        <!-- Password Input -->
+        <label for="password-input">Password :</label>
+        <input
+          type="password"
+          id="password-input"
+          name="password-input"
+        /><br /><br />
+
+        <!-- Radio Buttons -->
+        <label>Radio Buttons:</label><br />
+        <input type="radio" id="radio1" name="radio-group" value="Option 1" />
+        <label for="radio1">Option 1</label><br />
+        <input type="radio" id="radio2" name="radio-group" value="Option 2" />
+        <label for="radio2">Option 2</label><br /><br />
+
+        <!-- Checkboxes -->
+        <label>Checkboxes:</label><br />
+        <input
+          type="checkbox"
+          id="checkbox1"
+          name="checkbox-group"
+          value="Checkbox 1"
+        />
+        <label for="checkbox1">Checkbox 1</label><br />
+        <input
+          type="checkbox"
+          id="checkbox2"
+          name="checkbox-group"
+          value="Checkbox 2"
+        />
+        <label for="checkbox2">Checkbox 2</label><br /><br />
+
+        <!-- Dropdown -->
+        <label for="dropdown">Dropdown:</label>
+        <select id="dropdown" name="dropdown">
+          <option value="Option 1">Option 1</option>
+          <option value="Option 2">Option 2</option>
+          <option value="Option 3">Option 3</option></select
+        ><br /><br />
+
+        <!-- Text Area -->
+        <label for="textarea">Text Area:</label><br />
+        <textarea id="textarea" name="textarea" rows="4" cols="50"></textarea
+        ><br /><br />
+
+        <!-- Date Input -->
+        <label for="date-input">Date Input:</label>
+        <input type="date" id="date-input" name="date-input" /><br /><br />
+
+        <!-- File Input -->
+        <label for="file-input">File Input:</label>
+        <input type="file" id="file-input" name="file-input" /><br /><br />
+
+        <!-- Range Input -->
+        <label for="range-input">Range Input:</label>
+        <input
+          type="range"
+          id="range-input"
+          name="range-input"
+          min="0"
+          max="100"
+        /><br /><br />
+
+        <!-- Submit Button -->
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>

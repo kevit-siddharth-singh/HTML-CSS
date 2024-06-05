@@ -1,0 +1,35 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  display: grid;
+  justify-content: center;
+}
+
+.form{
+    padding: 20px;
+  width: 100%;
+  max-width: 500px;
+  margin: 10px;
+  background-color: rgb(49, 189, 21);
+
+
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
